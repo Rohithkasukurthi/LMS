@@ -1,0 +1,96 @@
+.zoom-container{
+    margin: 0;
+    display: flex;
+}
+.zoom-app {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f7fb;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .zoom-app h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #1d3557;
+  }
+  
+  .zoom-app p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .zoom-app button {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .zoom-app button:hover {
+    background-color: #457b9d;
+  }
+  
+  .zoom-app .meetingsList {
+    margin-top: 20px;
+  }
+  
+  .zoom-app .meetingItem {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .zoom-app .meetingItem h3 {
+    font-size: 24px;
+    color: #1d3557;
+    margin-bottom: 10px;
+  }
+  
+  .zoom-app .meetingItem p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .zoom-app .joinLink {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #457b9d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .zoom-app .joinLink:hover {
+    background-color: #1d3557;
+  }
+  
+  .zoom-app .meetingStatus {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #00796b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .zoom-app .loadingText {
+    font-size: 20px;
+    color: #ff6f61;
+  }
+  

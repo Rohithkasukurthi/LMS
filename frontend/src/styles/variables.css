@@ -1,0 +1,30 @@
+/* Color Variables */
+:root {
+    --color-primary: #152259;
+    --color-primary-light: #2D49BF;
+    --color-background: #f4f4f4;
+    --color-text: #333;
+    --color-link-hover: #0056b3;
+    --color-border: #ccc;
+    --color-white: #ffffff;
+    --color-footer-background: #333;
+    --color-hover-background: #e2e2e2;
+  
+
+  /* Font Variables */
+  --font-family-primary: 'Arial', sans-serif;
+  --font-size-body: 16px;
+  --font-size-heading: 2.5rem;
+  
+  /* Spacing Variables */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  --spacing-xlarge: 32px;
+  
+  /* Border Radius */
+  --border-radius: 8px;
+  
+  /* Shadow Variables */
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

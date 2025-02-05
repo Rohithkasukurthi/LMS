@@ -1,0 +1,78 @@
+hr {
+    border: 0.5px solid #f5f5f541; /* Custom border color */
+    margin: 3px 0; /* Margin around the line */
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  h3{
+    color: rgb(0, 0, 0);
+
+  }
+
+
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	height: 100vh;
+
+
+}
+
+h1 {
+	font-weight: bold;
+
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+    margin-top: 10px;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+.container.closed {
+    background-color: #ffffff41;
+    width: 90%; /* Adjusted width, considering 8% margin */
+ /* Adjust height automatically based on content */
+    display: flex; /* Enable flexbox */
+    flex-direction: column;
+    flex-wrap: wrap; /* Wrap flex items */
+    margin-left: 8%; /* Align container */
+    margin-top: 20px;
+    padding: 10px; /* Optional: Add padding for inner spacing */
+    box-sizing: border-box; /* To include padding and border in width/height */
+    transition: 0.7s ease-in-out;
+}
+.container{
+    background-color: rgba(125, 33, 196, 0);
+    margin-left: 25%;
+    width: 72%;
+    height: 90%;
+    margin-top: 20px;
+    transition: 0.2s ease-in-out;
+    
+}

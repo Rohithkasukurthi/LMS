@@ -1,0 +1,73 @@
+.task-table table {
+    width: 98%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-table th, .task-table td {
+
+    padding: 15px;
+  }
+  .task-table td {
+    text-align: left;
+  }
+  .taskview-dates{
+    display: flex;
+    gap: 25px;
+  }
+  .task-table th {
+    background-color: #00156E; /* Header row color */
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .task-table th:first-child {
+    border-top-left-radius: 30px;
+  }
+  .task-table th:nth-child(2) {
+
+    width: 120px;
+  }
+  .task-table tbody tr:last-child {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.25);
+
+
+  }
+
+
+  .task-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 30px;
+  }
+  .task-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 30px;
+  }
+
+
+  .task-table th:last-child {
+    border-top-right-radius: 30px;
+    width: 100px;
+  }
+  
+  .task-table tr:nth-child(odd) {
+    background-color: #ffffff;
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: var(--color-primary); /* Color for odd rows */
+  }
+  
+  .task-table tr:nth-child(even) {
+    background-color: #00156E; /* Color for even rows */
+    color: white;
+  }
+  
+
+  .container h1{
+    font-size: 25px;
+    color: #00156E;
+
+  }
+ 

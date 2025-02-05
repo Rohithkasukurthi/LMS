@@ -1,0 +1,172 @@
+.sidebar-box{
+    background-color: var(--color-primary);
+
+    width: 320px;
+    height: 100vh;
+    margin: 0;
+    position:fixed;
+    transition: width 0.3s ease;
+
+}
+
+.sidebar-box.closed {
+    width: 80px; /* Reduced width when closed */
+}
+
+.logo{
+    width: 150px;
+    margin: 7px;
+    margin-top: 10px;
+    margin-left: 20%;
+    transition: 0.3s ease-in-out;
+
+}
+.logo.closed{
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition: 0.21s ease-in-out;
+}
+
+
+.sidebar-btn{
+    position: absolute;
+    top: 45%;
+    left: 91.31%;
+    padding: 20px 2px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+   border: none;
+   cursor: pointer;
+   transition: 0.1s linear;
+}
+.arrow{
+    rotate: 180deg;
+}
+.sidebar-btn.closed{
+    left: 100%;
+    background-color: var(--color-primary);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    
+}
+  .dashboard-svg{
+    margin-top: 10px;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 0.5px; /* Spacing between links */
+  }
+  .sidebar-links.closed {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 0; /* Spacing between links */
+  }
+  
+  /* Individual Link Styling */
+  .sidebar-link {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 250px;
+    align-items: center;
+    gap: 16px; /* Space between icon and text */
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 5px;
+
+  }
+  .sidebar-link.closed {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 0px;
+    gap: 0px; /* Space between icon and text */
+    margin-top: 10px;
+    color: #ffffff;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+
+  }
+  
+  
+  /* Link Hover Effect */
+  .sidebar-link:hover {
+    background-color: #ffffff1e;
+    width: 250px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+  }
+  .sidebar-box.closed .sidebar-link:hover {
+    background-color: #aeaeae62;
+    width: 45px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Icon Styling */
+  .sidebar-icon {
+    flex-shrink: 0; 
+  }
+  
+  /* Sidebar Text Styling */
+  .sidebar-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sidebar-text.hidden {
+    opacity: 0;
+    visibility: hidden; /* Hide the text when sidebar is closed */
+}
+
+  .profile-pic{
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 16px;
+    margin-left: 20px;
+  }
+  .profile-pic.closed{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .logout-icon{
+    margin-top: 8%;
+    margin-left: 25%;
+  }
+  .logout-icon.closed{
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 28px;
+
+  }
+  .line {
+    border: 0.5px solid #f5f5f541; /* Custom border color */
+    margin: 0px 0; /* Margin around the line */
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 5%;
+  }
+  .line.closed{
+    width: 85%;
+  }
